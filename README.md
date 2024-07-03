@@ -55,7 +55,7 @@ Our data pipeline consists of the following stages:
 
 ### 4. Reporting
 - Queried the Data Warehouse to analyze the relationship between weather and Yelp reviews
-
+![QUERY RESULT](query%20result%20.png)
 ## Setup Instructions
 1. Ensure you have at least 10GB of free disk space
 2. Download the YELP JSON dataset (4.04GB compressed) from the [YELP Dataset](https://www.yelp.com/dataset)
