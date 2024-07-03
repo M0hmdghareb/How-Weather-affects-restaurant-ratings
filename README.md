@@ -51,7 +51,7 @@ Our data pipeline consists of the following stages:
   - Dimension tables: DIM_BUSINESS, DIM_USER, DIM_REVIEW, DIM_DATE, DIM_TEMP
 - Migrated data from ODS to Data Warehouse
 
-![Star Schema](STAR _SCHEMA.png)
+![Star Schema](STAR%20_SCHEMA.png)
 
 ### 4. Reporting
 - Queried the Data Warehouse to analyze the relationship between weather and Yelp reviews
