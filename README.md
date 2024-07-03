@@ -6,7 +6,7 @@ This project analyzes the effects of weather on customer reviews of restaurants 
 
 ## Data Architecture
 
-![Data Architecture](/Data Architect digram.png)
+![img](/"Data Architect digram.png")
 
 Our data pipeline consists of the following stages:
 1. Multiple data sources
@@ -47,6 +47,7 @@ Our data pipeline consists of the following stages:
 
 - Created an ODS schema with normalized tables
 - Migrated data from staging to ODS
+
 ![img](/ERD.png)
 ### 3. Data Warehouse
 
@@ -54,9 +55,9 @@ Our data pipeline consists of the following stages:
   - Fact table: FACT_REVIEW
   - Dimension tables: DIM_BUSINESS, DIM_USER, DIM_REVIEW, DIM_DATE, DIM_TEMP
 - Migrated data from ODS to Data Warehouse
+- 
+
 ![img](/STAR_SCHEMA.png)
-
-
 ### 4. Reporting
 
 - Queried the Data Warehouse to analyze the relationship between weather and Yelp reviews
